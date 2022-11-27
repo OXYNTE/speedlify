@@ -1,8 +1,7 @@
 module.exports = {
-	description: "Personal",
-	// skip if localhost
-	// skip if this is a new fork of the speedlify (not Zach’s)
-	skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
+	name: "jamesbateson.co.uk", // optional, falls back to object key
+	description: "Personal website",
+	skip: false,
 	options: {
 		frequency: 60 * 23, // 23 hours
 		// Use "run" if the sites don’t share assets on the same origin
@@ -13,9 +12,22 @@ module.exports = {
 	},
 	urls: [
 		"https://jamesbateson.co.uk/",
-		"http://localhost:8080/curriculum/",
-		"http://localhost:8080/blog/",
-		"http://localhost:8080/colophon//",
-		"http://localhost:8080/blog/post1//",
+		"https://jamesbateson.co.uk/about/",
+		"https://jamesbateson.co.uk/articles/",
+		"https://jamesbateson.co.uk/projects/",
+		"https://jamesbateson.co.uk/journal/",
+		"https://jamesbateson.co.uk/resume/",
+		// Current Projects
+		"https://jamesbateson.co.uk/project/jatalie-heights/",
+		"https://jamesbateson.co.uk/project/isveggiemanhere/",
+		// Posts
+		"https://jamesbateson.co.uk/articles/building-a-simple-todo-app-with-vue-js/",
+		"https://jamesbateson.co.uk/articles/switching-to-variable-fonts/",
 	]
 };
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+
