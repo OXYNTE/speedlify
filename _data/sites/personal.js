@@ -12,7 +12,7 @@ module.exports = {
 		freshChrome: "site"
 	},
 	urls: [
-		"http://localhost:8080/index.html",
+		"https://jamesbateson.co.uk/",
 		"http://localhost:8080/curriculum/",
 		"http://localhost:8080/blog/",
 		"http://localhost:8080/colophon//",
